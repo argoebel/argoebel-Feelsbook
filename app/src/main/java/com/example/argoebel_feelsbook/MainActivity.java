@@ -61,14 +61,6 @@ public class MainActivity extends AppCompatActivity {
 
     public List<Integer> counts = Arrays.asList(0,0,0,0,0,0);
 
-    public int loveCount;
-    public int angerCount;
-    public int joyCount;
-    public int sadnessCount;
-    public int surpriseCount;
-    public int fearCount;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -220,8 +212,8 @@ public class MainActivity extends AppCompatActivity {
                     newEmotion.setComments(comments);
                     newEmotion.setDate(new Date());
                     newEmotion.setMood("Fear");
-                    fearCount = fearCount + 1;
                     emotions.add(newEmotion);
+                    updateCounts();
                     adapter.notifyDataSetChanged();
                     saveInFile();
 
