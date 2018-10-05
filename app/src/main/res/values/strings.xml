@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">argoebel-FeelsBook</string>
+    <string name="feeling_list">Past Feelings:</string>
+    <string name="current_emotion">Current Emotion:</string>
+    <string name="additional_comments">Comments:</string>
+    <string name="love">Love</string>
+    <string name="joy">Joy</string>
+    <string name="surprise">Surprise</string>
+    <string name="anger">Anger</string>
+    <string name="sadness">Sadness</string>
+    <string name="fear">Fear</string>
+    <string name="delete">Delete Entry</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">Edit Entry</string>
+    <string name="edit_text_entry">Edit Text Entry</string>
+    <string name="update_text">Update Text</string>
+    <string name="new_comments">New Comment</string>
+    <string name="new_date">Edit Date Entry</string>
+    <string name="update_date">Update Date</string>
+    <string name="counters">Emotion Counters:</string>
+    <string name="love_counter">Love: </string>
+    <string name="anger_counter">Anger: </string>
+    <string name="joy_counter">Joy: </string>
+    <string name="sadness_counter">Sadness: </string>
+    <string name="surprise_counter">Surprise: </string>
+    <string name="fear_counter">Fear: </string>
+    <string name="delete_entry">Delete Entry</string>
+</resources>
